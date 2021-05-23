@@ -1,0 +1,18 @@
+K-Median Clustering
+K-Medoids Clustering
+
+Face Clustering
+k = 5
+1. Collect images of k different people (100-200 image per person)
+2. Put all the images in a single folder
+3. Read images one by one and detect face of each person
+4. Store the face array in a list
+5. Reshape the array of images into (eg : 1000 x 2500)
+6. Now try Elbow method to check how many cluster it suggest
+7. Now apply any one of clustering technique to classify images
+8. Now create k folders using os package and name them 0,1,2,3,4
+9. Now store the images of each person to there respective cluster folder.
+10. Now test the algorithm be passing a new test image and check which cluster it predict and save it to that cluster folder.
+
+
+
