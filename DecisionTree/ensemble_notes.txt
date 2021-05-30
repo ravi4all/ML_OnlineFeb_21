@@ -1,0 +1,22 @@
+Regression Tree
+
+Ensemble Methods
+Bagging
+ - Random Forest
+
+Boosting
+- Adaboost
+- Gradient Boosting
+- XGBoost
+
+Stump - weak learner
+
+1. first calculate sample weights
+2. build stump for all features
+3. calculate gini index of each stump
+4. now take the stump whose gini index is lowest
+5. now get the number of error by that stump
+6. now calculate total error to determine amount of say
+7. now we have to focus on incorrect observation
+8. we have to increase the sample weight of incorrect classified observation and decrese the sample weight of rest of the observations
+9. now pick a random number b/w 0 and 1
